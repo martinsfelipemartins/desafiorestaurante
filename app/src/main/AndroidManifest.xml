@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.digitalhouse.desafiorestaurante">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".detalhe.views.DetalheRestauranteActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity android:name=".detalhe.views.DetalhePratoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity
+            android:name=".home.views.HomeActivity"
+            android:label="Digital House Foods">
+            </activity>
+        <activity android:name=".profile.ProfileActivity"
+            android:parentActivityName=".home.views.HomeActivity">
+            ></activity>
+        <activity
+            android:name=".cadastro.views.CadastroActivity"
+            android:label="Registrer" />
+        <activity
+            android:name=".login.views.LoginActivity"
+            android:label="Digital House Foods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splash.view.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.digitalhouse.desafiorestaurante.home.views.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>
