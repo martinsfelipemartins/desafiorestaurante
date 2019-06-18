@@ -48,11 +48,11 @@ public class HomeActivity extends AppCompatActivity implements RecyclerViewResta
         List<Prato> pratosBeicola = new ArrayList<>();
 
         pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
-        pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
-        pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
-        pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
-        pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
-        pratosBeicola.add(new Prato("Pastel de Queijo", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
+        pratosBeicola.add(new Prato("Pastel de Queijo ", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
+        pratosBeicola.add(new Prato("Pastel de Queijo ", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
+        pratosBeicola.add(new Prato("Pastel de Queijo ", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
+        pratosBeicola.add(new Prato("Pastel de Queijo ", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
+        pratosBeicola.add(new Prato("Pastel de Queijo ", "O famoso e delicioso pastel de queijo do Beiçola. ", R.drawable.pasteis));
 
         restaurantes.add(new Restaurante("Pastelaria do Beiçola", "Av. São Miguel, 92 - São Paulo", "Fecha às 22h", R.drawable.beicolapastel, pratosBeicola));
 
